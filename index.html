@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Media</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="calculadora" class="calculadora">
+        <section class="area">
+            <h1>Calculadora de Média</h1>
+            <p>Insira as notas abaixo</p>
+            <label for="n1">1º :</label>
+            <input type="number" name="n1" id="n1" placeholder="Ex: 6,0"><br><br>
+
+            <label for="n2">2º :</label>
+            <input type="number" name="n2" id="n2"><br><br>
+
+            <label for="n3">3º :</label>
+            <input type="number" name="n3" id="n3"><br><br>
+
+            <label for="n4">4º :</label>
+            <input type="number" name="n4" id="n4"><br><br>
+
+            <button onclick="calcular()" class="change-color">Calcular Média</button>
+        
+            <br>
+            <br>
+            <div id="res">
+            </div>
+        </div>
+        </section>
+
+        <br>
+        <br>
+
+    <div class="container-footer">
+        <footer>&copy;Whoeduma</footer>
+    </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

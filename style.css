@@ -1,0 +1,81 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+/*input*/
+input[type=number] {-moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus{
+    outline: solid #3D1766;
+}
+
+.calculadora input{
+    border: none;
+    background-color: #d8d3e0;
+    height: 40px;
+    border-radius: 5px;
+    color: #37306B;
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+    line-height: normal;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.calculadora button{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.area {
+    background-color: #F6F1F1;
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 500px;
+    transform: translateY(50%);
+    margin: 0 auto;
+}
+
+section{
+    text-align: center;
+}
+
+.container-footer{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+body{
+    background: linear-gradient(#3A1078, #4E31AA);
+    height: 120vh;
+}
+
+button{
+    cursor: pointer;
+    font-size: medium;
+    background-color: #F7C04A;
+}
+
+button:hover{
+    background-color: #FFDD83;
+}
+
